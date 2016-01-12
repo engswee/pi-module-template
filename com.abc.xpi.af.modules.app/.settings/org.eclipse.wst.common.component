@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="com.abc.xpi.af.modules.app">
+        <wb-resource deploy-path="/" source-path="/EarContent"/>
+        <dependent-module archiveName="com.abc.xpi.af.modules.ejb.jar" deploy-path="/" handle="module:/resource/com.abc.xpi.af.modules.ejb/com.abc.xpi.af.modules.ejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
